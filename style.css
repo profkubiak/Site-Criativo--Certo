@@ -1,6 +1,8 @@
-header{
+.cabecalho-itens{
     background-color: blue;
     color: black;
 }
 
-.cabecalho-imagem
+.cabecalho-imagem{
+    width: 20%;
+}
