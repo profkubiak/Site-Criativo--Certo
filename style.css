@@ -68,9 +68,13 @@ text-align: center;
 .estudante-todos{
     display: grid;
     grid-template-columns: 20%  20%  20%;
-    justify-content:space-around;
 }
-.estudante-div{
+
+}.rodape{
+    background-color: black;
     text-align: center;
-    padding: 16px 0;
+}
+
+.rodape-imagem{
+    height: 60px;
 }
