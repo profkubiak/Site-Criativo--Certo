@@ -27,6 +27,7 @@ body{
 
 .laboratorio-imagem{
     width: 20%;
+    margin: 20px 25px;
 }
 
 .escola{
@@ -43,11 +44,12 @@ body{
 }
 
 .escola-titulo{
+    font-size: 36px;
     padding:24px 0;
 }
 
 .estudante-imagem{
-width: 120px;
+width: 100px;
 }
 
 .estudante-icone{
@@ -56,9 +58,18 @@ width: 120px;
 }
 
 .estudante{
+    background-image: -o-linear-gradient();
     padding:24px 0; 
 }
-
+.estudante-titulo{
+padding: 50px;
+text-align: center;
+}
+.estudante-todos{
+    display: grid;
+    grid-template-columns: 20%  20%  20%;
+    justify-content:space-around;
+}
 .estudante-div{
     text-align: center;
     padding: 16px 0;
